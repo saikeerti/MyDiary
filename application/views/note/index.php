@@ -7,7 +7,7 @@
 	<table class="table table-bordered table-responsive" style="margin-top: 20px;">
 		<thead>
 			<tr>
-				<td>ID</td>
+				
 				<td>Note Name</td>
 				<td>Content</td>
 				<td>Created at</td>
@@ -199,7 +199,7 @@
 					var i;
 					for(i=0; i<data.length; i++){
 						html +='<tr>'+
-									'<td>'+data[i].id+'</td>'+
+									
 									'<td>'+data[i].notename+'</td>'+
 									'<td>'+data[i].content+'</td>'+
 									'<td>'+data[i].created_at+'</td>'+
